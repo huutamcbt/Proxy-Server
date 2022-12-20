@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head>
+
+  <meta charset="UTF-8">
+  <title>403 FORBIDDEN</title>
+
+  <meta name="robots" content="noindex">
+  <style class="INLINE_PEN_STYLESHEET_ID">
+    @keyframes floating {
+  to {
+    top: 1.5rem;
+  }
+}
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1.3rem;
+}
+body h1 {
+  font-size: 2.5rem;
+}
+
+.message {
+  max-width: 700px;
+  margin: 5rem auto 0 auto;
+}
+
+.gandalf {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  top: 1rem;
+  animation: floating 1s infinite alternate ease-in-out;
+}
+.gandalf div {
+  position: absolute;
+}
+.gandalf::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background-color: #1a2130;
+  border-radius: 50%;
+}
+.gandalf .fireball {
+  bottom: -10px;
+  left: 50px;
+  width: 300px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(#EFAC41, #DE8531, #6C1305, black);
+  border: 5px solid #000;
+}
+.gandalf .skirt {
+  bottom: 50px;
+  left: 100px;
+  border-bottom: 230px solid #ededed;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  filter: drop-shadow(0 0 6px #d4d4d4);
+}
+.gandalf .skirt::before {
+  content: "";
+  position: absolute;
+  background-color: #ededed;
+  width: 100px;
+  height: 21px;
+  top: 230px;
+  left: 0px;
+  border-bottom-right-radius: 180%;
+  border-bottom-left-radius: 100%;
+}
+.gandalf .skirt::after {
+  content: "";
+  position: absolute;
+  background-color: #ededed;
+  width: 100px;
+  height: 28px;
+  top: 230px;
+  left: -100px;
+  border-bottom-right-radius: 80%;
+  border-bottom-left-radius: 180%;
+}
+.gandalf .sleeves::before, .gandalf .sleeves::after {
+  content: "";
+  position: absolute;
+  border-bottom: 70px solid #ededed;
+  filter: drop-shadow(0 0 6px #d4d4d4);
+}
+.gandalf .sleeves::before {
+  top: 130px;
+  left: 191px;
+  border-left: 100px solid transparent;
+  border-right: 40px solid transparent;
+  transform: rotate(-34deg);
+}
+.gandalf .sleeves::after {
+  top: 127px;
+  left: 70px;
+  border-left: 40px solid transparent;
+  border-right: 100px solid transparent;
+  transform: rotate(41deg);
+}
+.gandalf .shoulders {
+  background-color: #ededed;
+  border-radius: 50%;
+  width: 100px;
+  height: 130px;
+  left: 150px;
+  top: 120px;
+}
+.gandalf .shoulders .hand {
+  width: 33px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #ffd8ad;
+  top: -6px;
+}
+.gandalf .shoulders .left {
+  left: -70px;
+  transform: rotate(-20deg);
+}
+.gandalf .shoulders .left::after {
+  content: "";
+  position: absolute;
+  background-color: #e6e6e6;
+  width: 126px;
+  height: 8px;
+  border-radius: 4px;
+  transform: rotate(-105deg);
+  transform-origin: bottom;
+  top: -48px;
+  left: -56px;
+}
+.gandalf .shoulders .right {
+  right: -70px;
+  transform: rotate(20deg);
+}
+.gandalf .shoulders .right::after {
+  content: "";
+  position: absolute;
+  background-color: #bf5507;
+  width: 250px;
+  height: 5px;
+  border-radius: 2.5px;
+  transform: rotate(-78deg);
+  transform-origin: left;
+  bottom: -100px;
+  left: 0;
+}
+.gandalf .head {
+  width: 80px;
+  height: 90px;
+  top: 80px;
+  left: 160px;
+  background-color: #ffd8ad;
+  border-radius: 50%;
+}
+.gandalf .head::before, .gandalf .head::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+.gandalf .head::before {
+  width: 13px;
+  height: 5px;
+  border-radius: 3px;
+  top: 42px;
+  left: 22px;
+  transform: rotate(19deg);
+}
+.gandalf .head::after {
+  width: 13px;
+  height: 5px;
+  border-radius: 3px;
+  top: 42px;
+  right: 22px;
+  transform: rotate(-19deg);
+}
+.gandalf .head .hair {
+  width: 70px;
+  height: 30px;
+  background-color: #c2beb5;
+  border-radius: 50%;
+  top: 0px;
+  left: 5px;
+}
+.gandalf .head .hair::before, .gandalf .head .hair::after {
+  content: "";
+  position: absolute;
+  background-color: #c2beb5;
+  filter: drop-shadow(2px 5px 0 #aba599);
+}
+.gandalf .head .hair::before {
+  top: 13px;
+  left: -16px;
+  width: 25px;
+  height: 100px;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 20px;
+  transform: rotate(8deg);
+}
+.gandalf .head .hair::after {
+  top: 13px;
+  right: -16px;
+  width: 25px;
+  height: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 34px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 100px;
+  transform: rotate(-10deg);
+}
+.gandalf .head .beard {
+  top: 64px;
+  left: 5px;
+  border-top: 80px solid #c2beb5;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-radius: 30px;
+  filter: drop-shadow(2px 5px 0 #aba599);
+}
+.gandalf .head .beard::before {
+  content: "";
+  position: absolute;
+  background-color: pink;
+  width: 20px;
+  height: 5px;
+  border-radius: 40%;
+  top: -70px;
+  left: -9px;
+}
+
+  </style>
+
+
+<script> !function(){function E(E){for(var _=[].slice.call(E),n=[],R=[],e=0;e<_.length;e++)N(_[e])?(R.push(S(_[e].outerHTML)),n.push(1)):(R.push(S(_[e])),n.push(t(_[e])));return{complexities:n,stringifiedArguments:R}}function _(E){var _;try{_={}.toString.call(E)}catch(N){_=R}return _}function N(E){return!!(E&&"object"==typeof E&&"nodeType"in E&&1===E.nodeType&&E.outerHTML)}function n(E,_){return E.toLowerCase()<_.toLowerCase()?-1:1}function t(E){if(null==E)return e;var N=_(E),n;if("[object Number]"===N||"[object Boolean]"===N||"[object String]"===N)return e;if("[object Function]"===N||"[object global]"===N)return O;if(N===R){var t=Object.keys(E);for(n=0;n<t.length;n++){var S=E[t[n]];if("[object Function]"===(r={}.toString.call(S))||r===R||"[object Array]"===r)return O}return e}if("[object Array]"===N){for(n=0;n<E.length;n++){var o=E[n],r={}.toString.call(o);if("[object Function]"===r||r===R||"[object Array]"===r)return O}return e}return O}function S(E,N,t){var e,O,o="",r=[];if(t=t||"",N=N||[],null===E)return"null";if(void 0===E)return"undefined";if((o=_(E))===R&&(o="Object"),"[object Number]"===o)return""+E;if("[object Boolean]"===o)return E?"true":"false";if("[object Function]"===o)return E.toString().split("\n  ").join("\n"+t);if("[object String]"===o)return'"'+E.replace(/"/g,"'")+'"';for(O=0;O<N.length;O++)if(E===N[O])return"[circular "+o.slice(1)+("outerHTML"in E?" :\n"+E.outerHTML.split("\n").join("\n"+t):"");if(N.push(E),"[object Array]"===o){for(e=0;e<E.length;e++)r.push(S(E[e],N));return"["+r.join(", ")+"]"}if(o.match(/Array/))return o;var T=o+" ",A=t+"  ";if(t.length/2<2){var I=[];try{for(e in E)I.push(e)}catch(P){}for(I.sort(n),e=0;e<I.length;e++)try{r.push(A+I[e]+": "+S(E[I[e]],N,A))}catch(P){}}return r.length?T+"{\n"+r.join(",\n")+"\n"+t+"}":T+"{}"}const R="[object Object]";window.__cpConsoleSafeStringify=E;const e=1,O=2}(),window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET_DESELECTED:"ASSET_DESELECTED",ASSET_SELECTED:"ASSET_SELECTED",ASSET_UPDATED:"ASSET_UPDATED",CONSOLE_CHANGE:"CONSOLE_CHANGE",CONSOLE_CLOSED:"CONSOLE_CLOSED",CONSOLE_EVENT:"CONSOLE_EVENT",CONSOLE_OPENED:"CONSOLE_OPENED",CONSOLE_RUN_COMMAND:"CONSOLE_RUN_COMMAND",CONSOLE_SERVER_CHANGE:"CONSOLE_SERVER_CHANGE",EMBED_ACTIVE_PEN_CHANGE:"EMBED_ACTIVE_PEN_CHANGE",EMBED_ACTIVE_THEME_CHANGE:"EMBED_ACTIVE_THEME_CHANGE",EMBED_ATTRIBUTE_CHANGE:"EMBED_ATTRIBUTE_CHANGE",EMBED_RESHOWN:"EMBED_RESHOWN",FORMAT_FINISH:"FORMAT_FINISH",FORMAT_ERROR:"FORMAT_ERROR",FORMAT_START:"FORMAT_START",IFRAME_PREVIEW_RELOAD_CSS:"IFRAME_PREVIEW_RELOAD_CSS",IFRAME_PREVIEW_URL_CHANGE:"IFRAME_PREVIEW_URL_CHANGE",KEY_PRESS:"KEY_PRESS",LINTER_FINISH:"LINTER_FINISH",LINTER_START:"LINTER_START",PEN_CHANGE_SERVER:"PEN_CHANGE_SERVER",PEN_CHANGE:"PEN_CHANGE",PEN_EDITOR_CLOSE:"PEN_EDITOR_CLOSE",PEN_EDITOR_CODE_FOLD:"PEN_EDITOR_CODE_FOLD",PEN_EDITOR_ERRORS:"PEN_EDITOR_ERRORS",PEN_EDITOR_EXPAND:"PEN_EDITOR_EXPAND",PEN_EDITOR_FOLD_ALL:"PEN_EDITOR_FOLD_ALL",PEN_EDITOR_LOADED:"PEN_EDITOR_LOADED",PEN_EDITOR_REFRESH_REQUEST:"PEN_EDITOR_REFRESH_REQUEST",PEN_EDITOR_RESET_SIZES:"PEN_EDITOR_RESET_SIZES",PEN_EDITOR_SIZES_CHANGE:"PEN_EDITOR_SIZES_CHANGE",PEN_EDITOR_UI_CHANGE_SERVER:"PEN_EDITOR_UI_CHANGE_SERVER",PEN_EDITOR_UI_CHANGE:"PEN_EDITOR_UI_CHANGE",PEN_EDITOR_UI_DISABLE:"PEN_EDITOR_UI_DISABLE",PEN_EDITOR_UI_ENABLE:"PEN_EDITOR_UI_ENABLE",PEN_EDITOR_UNFOLD_ALL:"PEN_EDITOR_UNFOLD_ALL",PEN_ERROR_INFINITE_LOOP:"PEN_ERROR_INFINITE_LOOP",PEN_ERROR_RUNTIME:"PEN_ERROR_RUNTIME",PEN_ERRORS:"PEN_ERRORS",PEN_LIVE_CHANGE:"PEN_LIVE_CHANGE",PEN_LOGS:"PEN_LOGS",PEN_MANIFEST_CHANGE:"PEN_MANIFEST_CHANGE",PEN_MANIFEST_FULL:"PEN_MANIFEST_FULL",PEN_PREVIEW_FINISH:"PEN_PREVIEW_FINISH",PEN_PREVIEW_START:"PEN_PREVIEW_START",PEN_SAVED:"PEN_SAVED",POPUP_CLOSE:"POPUP_CLOSE",POPUP_OPEN:"POPUP_OPEN",POST_CHANGE:"POST_CHANGE",POST_SAVED:"POST_SAVED",PROCESSING_FINISH:"PROCESSING_FINISH",PROCESSING_START:"PROCESSED_STARTED"},function(){function E(){if(window.console)for(let E=0;E<n.length;E++)!function N(){const N=n[E];window.console[N]&&(window.console[N]=function(){_(N,arguments),this.apply(console,arguments)}.bind(console[N]))}()}function _(E,_){const N=window.__cpConsoleSafeStringify(_),{complexities:n,stringifiedArguments:t}=N,S={topic:HUB_EVENTS.CONSOLE_EVENT,data:{"function":E,arguments:t,complexity:Math.max.apply(null,n)}};window.parent.postMessage(S,"*")}function N(E){const{topic:_,data:N}="object"==typeof E.data?E.data:{};if(_===HUB_EVENTS.CONSOLE_RUN_COMMAND)try{const E=window.eval(N.command);console.log(E)}catch(n){return void console.error(n.message)}}const n=["clear","count","debug","error","info","log","table","time","timeEnd","warn"];E(),window.addEventListener("message",N,!1)}();</script>
+<script> window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET_DESELECTED:"ASSET_DESELECTED",ASSET_SELECTED:"ASSET_SELECTED",ASSET_UPDATED:"ASSET_UPDATED",CONSOLE_CHANGE:"CONSOLE_CHANGE",CONSOLE_CLOSED:"CONSOLE_CLOSED",CONSOLE_EVENT:"CONSOLE_EVENT",CONSOLE_OPENED:"CONSOLE_OPENED",CONSOLE_RUN_COMMAND:"CONSOLE_RUN_COMMAND",CONSOLE_SERVER_CHANGE:"CONSOLE_SERVER_CHANGE",EMBED_ACTIVE_PEN_CHANGE:"EMBED_ACTIVE_PEN_CHANGE",EMBED_ACTIVE_THEME_CHANGE:"EMBED_ACTIVE_THEME_CHANGE",EMBED_ATTRIBUTE_CHANGE:"EMBED_ATTRIBUTE_CHANGE",EMBED_RESHOWN:"EMBED_RESHOWN",FORMAT_FINISH:"FORMAT_FINISH",FORMAT_ERROR:"FORMAT_ERROR",FORMAT_START:"FORMAT_START",IFRAME_PREVIEW_RELOAD_CSS:"IFRAME_PREVIEW_RELOAD_CSS",IFRAME_PREVIEW_URL_CHANGE:"IFRAME_PREVIEW_URL_CHANGE",KEY_PRESS:"KEY_PRESS",LINTER_FINISH:"LINTER_FINISH",LINTER_START:"LINTER_START",PEN_CHANGE_SERVER:"PEN_CHANGE_SERVER",PEN_CHANGE:"PEN_CHANGE",PEN_EDITOR_CLOSE:"PEN_EDITOR_CLOSE",PEN_EDITOR_CODE_FOLD:"PEN_EDITOR_CODE_FOLD",PEN_EDITOR_ERRORS:"PEN_EDITOR_ERRORS",PEN_EDITOR_EXPAND:"PEN_EDITOR_EXPAND",PEN_EDITOR_FOLD_ALL:"PEN_EDITOR_FOLD_ALL",PEN_EDITOR_LOADED:"PEN_EDITOR_LOADED",PEN_EDITOR_REFRESH_REQUEST:"PEN_EDITOR_REFRESH_REQUEST",PEN_EDITOR_RESET_SIZES:"PEN_EDITOR_RESET_SIZES",PEN_EDITOR_SIZES_CHANGE:"PEN_EDITOR_SIZES_CHANGE",PEN_EDITOR_UI_CHANGE_SERVER:"PEN_EDITOR_UI_CHANGE_SERVER",PEN_EDITOR_UI_CHANGE:"PEN_EDITOR_UI_CHANGE",PEN_EDITOR_UI_DISABLE:"PEN_EDITOR_UI_DISABLE",PEN_EDITOR_UI_ENABLE:"PEN_EDITOR_UI_ENABLE",PEN_EDITOR_UNFOLD_ALL:"PEN_EDITOR_UNFOLD_ALL",PEN_ERROR_INFINITE_LOOP:"PEN_ERROR_INFINITE_LOOP",PEN_ERROR_RUNTIME:"PEN_ERROR_RUNTIME",PEN_ERRORS:"PEN_ERRORS",PEN_LIVE_CHANGE:"PEN_LIVE_CHANGE",PEN_LOGS:"PEN_LOGS",PEN_MANIFEST_CHANGE:"PEN_MANIFEST_CHANGE",PEN_MANIFEST_FULL:"PEN_MANIFEST_FULL",PEN_PREVIEW_FINISH:"PEN_PREVIEW_FINISH",PEN_PREVIEW_START:"PEN_PREVIEW_START",PEN_SAVED:"PEN_SAVED",POPUP_CLOSE:"POPUP_CLOSE",POPUP_OPEN:"POPUP_OPEN",POST_CHANGE:"POST_CHANGE",POST_SAVED:"POST_SAVED",PROCESSING_FINISH:"PROCESSING_FINISH",PROCESSING_START:"PROCESSED_STARTED"},function(){const E=30,_=["css_pre_processor","css_prefix","css_starter","description","head","html_classes","html_pre_processor","js_pre_processor","js_library","dependencies","resources","title"],N={DEPENDENCIES:"DEPENDENCIES",IMPORTS:"IMPORTS"},S=["css_pre_processor","css_prefix","css_starter","css","dependencies","description","editor_settings","head","html_classes","html_pre_processor","html","id","js_pre_processor","js_library","js","newTags","parent","private","resources","slug_hash_private","slug_hash","tags","team_id","template","title","user_id"],R=["css_pre_processor","css_prefix","css_starter","css","dependencies","head","html_classes","html_pre_processor","html","js_pre_processor","js_library","js","resources"],T=["html","css","js"],I="INLINE_PEN_STYLESHEET_ID",O="INLINE_PEN_JS_ID",e=50;window.PEN_CONSTANTS={CANONICAL_IMPORTS:N,COLLAB_SYNC_ATTRIBUTES:_,DATA_ATTRIBUTES:S,INLINE_PEN_JS_ID:O,INLINE_PEN_STYLESHEET_ID:I,MAX_DEPENDENCIES:E,MAX_PACKAGE_VERSIONS:e,PREVIEW_ATTRIBUTES:R,TYPES:T}}(),function(){function E(E){const S=_(E),{action:R,css:T}=S;HUB_EVENTS.IFRAME_PREVIEW_RELOAD_CSS===R&&N(T)}function _(E){return"object"==typeof E.data?E.data:{}}function N(E){const _=R();S(E),_&&_.parentNode.removeChild(_),window.PrefixFree&&StyleFix.process()}function S(E){const _=document.createElement("style");_.type="text/css",_.className=PEN_CONSTANTS.INLINE_PEN_STYLESHEET_ID,_.styleSheet?_.styleSheet.cssText=E:_.appendChild(document.createTextNode(E)),T.appendChild(_)}function R(){const E=Array.from(document.getElementsByTagName("style"));return E.find(E=>PEN_CONSTANTS.INLINE_PEN_STYLESHEET_ID===E.className)}const T=document.head||document.getElementsByTagName("head")[0];window.addEventListener("message",E,!1)}(); </script>
+<script> !function(){function n(n){const{message:o,filename:t,lineno:i,colno:s}=n;if(e.test(t)){const n={topic:HUB_EVENTS.PEN_ERROR_RUNTIME,data:{message:o,filename:t,lineno:i,colno:s}};window.parent.postMessage(n,"*")}}window.addEventListener("error",n);const e=/(pen.js|index.html)/;window.__handleRuntimeErrors=n}(); </script>
+
+</head>
+
+<body>
+  <div class="gandalf">
+  <div class="fireball"></div>
+  <div class="skirt"></div>
+  <div class="sleeves"></div>
+  <div class="shoulders">
+    <div class="hand left"></div>
+    <div class="hand right"></div>
+  </div>
+  <div class="head">
+    <div class="hair"></div>
+    <div class="beard"></div>
+  </div>
+</div>
+<div class="message">
+<h1>403 - You Shall Not Pass</h1>
+<p>Uh oh, Gandalf is blocking the way!<br>Maybe you have a typo in the url? Or you meant to go to a different location? Like...Hobbiton?</p>
+</div>
+
+
+<script> window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET_DESELECTED:"ASSET_DESELECTED",ASSET_SELECTED:"ASSET_SELECTED",ASSET_UPDATED:"ASSET_UPDATED",CONSOLE_CHANGE:"CONSOLE_CHANGE",CONSOLE_CLOSED:"CONSOLE_CLOSED",CONSOLE_EVENT:"CONSOLE_EVENT",CONSOLE_OPENED:"CONSOLE_OPENED",CONSOLE_RUN_COMMAND:"CONSOLE_RUN_COMMAND",CONSOLE_SERVER_CHANGE:"CONSOLE_SERVER_CHANGE",EMBED_ACTIVE_PEN_CHANGE:"EMBED_ACTIVE_PEN_CHANGE",EMBED_ACTIVE_THEME_CHANGE:"EMBED_ACTIVE_THEME_CHANGE",EMBED_ATTRIBUTE_CHANGE:"EMBED_ATTRIBUTE_CHANGE",EMBED_RESHOWN:"EMBED_RESHOWN",FORMAT_FINISH:"FORMAT_FINISH",FORMAT_ERROR:"FORMAT_ERROR",FORMAT_START:"FORMAT_START",IFRAME_PREVIEW_RELOAD_CSS:"IFRAME_PREVIEW_RELOAD_CSS",IFRAME_PREVIEW_URL_CHANGE:"IFRAME_PREVIEW_URL_CHANGE",KEY_PRESS:"KEY_PRESS",LINTER_FINISH:"LINTER_FINISH",LINTER_START:"LINTER_START",PEN_CHANGE_SERVER:"PEN_CHANGE_SERVER",PEN_CHANGE:"PEN_CHANGE",PEN_EDITOR_CLOSE:"PEN_EDITOR_CLOSE",PEN_EDITOR_CODE_FOLD:"PEN_EDITOR_CODE_FOLD",PEN_EDITOR_ERRORS:"PEN_EDITOR_ERRORS",PEN_EDITOR_EXPAND:"PEN_EDITOR_EXPAND",PEN_EDITOR_FOLD_ALL:"PEN_EDITOR_FOLD_ALL",PEN_EDITOR_LOADED:"PEN_EDITOR_LOADED",PEN_EDITOR_REFRESH_REQUEST:"PEN_EDITOR_REFRESH_REQUEST",PEN_EDITOR_RESET_SIZES:"PEN_EDITOR_RESET_SIZES",PEN_EDITOR_SIZES_CHANGE:"PEN_EDITOR_SIZES_CHANGE",PEN_EDITOR_UI_CHANGE_SERVER:"PEN_EDITOR_UI_CHANGE_SERVER",PEN_EDITOR_UI_CHANGE:"PEN_EDITOR_UI_CHANGE",PEN_EDITOR_UI_DISABLE:"PEN_EDITOR_UI_DISABLE",PEN_EDITOR_UI_ENABLE:"PEN_EDITOR_UI_ENABLE",PEN_EDITOR_UNFOLD_ALL:"PEN_EDITOR_UNFOLD_ALL",PEN_ERROR_INFINITE_LOOP:"PEN_ERROR_INFINITE_LOOP",PEN_ERROR_RUNTIME:"PEN_ERROR_RUNTIME",PEN_ERRORS:"PEN_ERRORS",PEN_LIVE_CHANGE:"PEN_LIVE_CHANGE",PEN_LOGS:"PEN_LOGS",PEN_MANIFEST_CHANGE:"PEN_MANIFEST_CHANGE",PEN_MANIFEST_FULL:"PEN_MANIFEST_FULL",PEN_PREVIEW_FINISH:"PEN_PREVIEW_FINISH",PEN_PREVIEW_START:"PEN_PREVIEW_START",PEN_SAVED:"PEN_SAVED",POPUP_CLOSE:"POPUP_CLOSE",POPUP_OPEN:"POPUP_OPEN",POST_CHANGE:"POST_CHANGE",POST_SAVED:"POST_SAVED",PROCESSING_FINISH:"PROCESSING_FINISH",PROCESSING_START:"PROCESSED_STARTED"},"object"!=typeof window.CP&&(window.CP={}),window.CP.PenTimer={programNoLongerBeingMonitored:!1,timeOfFirstCallToShouldStopLoop:0,_loopExits:{},_loopTimers:{},START_MONITORING_AFTER:2e3,STOP_ALL_MONITORING_TIMEOUT:5e3,MAX_TIME_IN_LOOP_WO_EXIT:2200,exitedLoop:function(E){this._loopExits[E]=!0},shouldStopLoop:function(E){if(this.programKilledSoStopMonitoring)return!0;if(this.programNoLongerBeingMonitored)return!1;if(this._loopExits[E])return!1;var _=this._getTime();if(0===this.timeOfFirstCallToShouldStopLoop)return this.timeOfFirstCallToShouldStopLoop=_,!1;var o=_-this.timeOfFirstCallToShouldStopLoop;if(o<this.START_MONITORING_AFTER)return!1;if(o>this.STOP_ALL_MONITORING_TIMEOUT)return this.programNoLongerBeingMonitored=!0,!1;try{this._checkOnInfiniteLoop(E,_)}catch(N){return this._sendErrorMessageToEditor(),this.programKilledSoStopMonitoring=!0,!0}return!1},_sendErrorMessageToEditor:function(){try{if(this._shouldPostMessage()){var E={topic:HUB_EVENTS.PEN_ERROR_INFINITE_LOOP,data:{line:this._findAroundLineNumber()}};parent.postMessage(E,"*")}else this._throwAnErrorToStopPen()}catch(_){this._throwAnErrorToStopPen()}},_shouldPostMessage:function(){return document.location.href.match(/boomerang/)},_throwAnErrorToStopPen:function(){throw"We found an infinite loop in your Pen. We've stopped the Pen from running. Please correct it or contact support@codepen.io."},_findAroundLineNumber:function(){var E=new Error,_=0;if(E.stack){var o=E.stack.match(/boomerang\S+:(\d+):\d+/);o&&(_=o[1])}return _},_checkOnInfiniteLoop:function(E,_){if(!this._loopTimers[E])return this._loopTimers[E]=_,!1;var o;if(_-this._loopTimers[E]>this.MAX_TIME_IN_LOOP_WO_EXIT)throw"Infinite Loop found on loop: "+E},_getTime:function(){return+new Date}},window.CP.shouldStopExecution=function(E){var _=window.CP.PenTimer.shouldStopLoop(E);return!0===_&&console.warn("[CodePen]: An infinite loop (or a loop taking too long) was detected, so we stopped its execution. Sorry!"),_},window.CP.exitedLoop=function(E){window.CP.PenTimer.exitedLoop(E)}; </script>
+  <script id="INLINE_PEN_JS_ID">
+
+    //# sourceURL=pen.js
+  </script>
+
+
+</body></html>
